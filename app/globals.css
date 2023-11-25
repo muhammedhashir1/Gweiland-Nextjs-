@@ -2,7 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+@font-face {
+  font-family: "Made Tommy Soft Regular";
+  src: url("/fonts/MADE_Tommy_Soft_Regular_PERSONAL_USE.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Qualy";
+  src: url("/fonts/Qualy_Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "Made Tommy Soft Regular", "Qualy", sans-serif;
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+  /* Add other global styles here */
+}
+
+/* @font-face {
+  font-family: "Made Tommy Soft Regular";
+  src: url("/gweiland/font/MADE\ Tommy\ Soft\ Regular\ PERSONAL\ USE.otf") format("truetype"); 
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "Made Tommy Soft Regular", sans-serif;
+} */
+
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -24,4 +56,4 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-}
+} */

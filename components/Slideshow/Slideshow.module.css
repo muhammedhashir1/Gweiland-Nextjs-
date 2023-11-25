@@ -1,0 +1,51 @@
+.slideshow_container {
+  grid-area: slideshow;
+  height: 100%;
+  /* padding-bottom: 50px; */
+  /* overflow: hidden; */
+}
+.slideshow .imageStyle {
+  border-radius: 50%;
+}
+
+.slideshow {
+  display: flex;
+}
+
+.imageSlideSection {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 10px;
+  border-radius: 73px 8px 8px 75px;
+  background-color: #000;
+  color: #fff;
+}
+
+.imageSlideSectionOne {
+  background-color: #1a73a8;
+  color: white;
+}
+.imageSlideSectionTwo {
+  background-color: #ff8a8a;
+  color: white;
+}
+
+.imageSlideSectionFive {
+  background-color: #091f2c;
+  color: white;
+}
+.titleSection {
+  display: grid;
+  align-content: space-between;
+  justify-items: end;
+  margin: 10px;
+}
+.titleSection div {
+  font-family: "Qualy", sans-serif;
+}
+.titleSection a {
+  text-decoration: underline;
+  font-family: "Made Tommy Soft Regular", sans-serif;
+  text-transform: lowercase;
+}
